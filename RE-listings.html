@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR REAL ESTATE</title>
+    <link rel="stylesheet" href="RE-listing.css">
+  
+</head>
+
+<body>
+ 
+    <div class="pimg1">
+        <header>
+            <div class="navbar">
+                <ul>
+                    <img src="RE-logo.png" alt="" class="logo">
+                    <h3 class="email"><a class="email-a" href="mailto:your@realestate.com?">YOUR@REALESTATE.COM</a>
+                    </h3>
+                    <h3 class="phone">555.555.5555</h3>
+                    <li><a href="RE.html">HOME</a></li>
+                    <li><a href="RE-listings.html">LISTINGS</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <a href="index.html">
+                <img src="RE-logo.png" alt="" class="ham-logo">
+            </a>
+        </header>
+        <div class="pimg2">
+            <img id ="filter-icon" src ="filter.svg" alt="">
+            <div class="ptext">
+                <span class="border">HOME LISTINGS </span>
+            </div>
+        </div>
+
+
+        <!----------------------------------Refine Search--------------------------->
+
+             <!-------Hamburger Menu--------->
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger">
+          <div></div>
+        </div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul class=" ham-ul">
+                <li class="ham-li"><a href="RE.html" class="ham-a">Home</a></li>
+                <li class="ham-li"><a href="RE-listings.html" class="ham-a">Listings</a></li>
+                <li class="ham-li"><a href="#" class="ham-a">About</a></li>
+                <li class="ham-li"><a href="#" class="ham-a">Contact</a></li>
+                <li class="ham-li"><a class="port-a" href="index.html"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-------EndHamburger Menu--------->
+
+    <!-------Filter Menu--------->
+    <div class="filter-container">
+        <form id="form">
+            <fieldset>
+                <legend></legend>
+                <div>
+                    <label for="">Price Range:</label>
+                </div>
+                <div>
+                    <input list="price-list"type="text">
+                    <datalist id="price-list">
+                        <option value="Under 100K">
+                        <option value="100K-200K">
+                        <option value="200K-300K">
+                        <option value="300K-400K">
+                        <option value="400K-500K">
+                        <option value="500K+">
+                    </datalist>
+                </div>
+                <legend></legend>
+                <div>
+                    <label for="">Bedrooms:</label>
+                </div>
+                <div>
+                    <input list="bed-list"type="text">
+                    <datalist id="bed-list">
+                        <option value="1+">
+                        <option value="2+">
+                        <option value="3+">
+                        <option value="4+">
+                    </datalist>
+                </div>
+                <legend></legend>
+                <div>
+                    <label for="">Bathrooms:</label>
+                </div>
+                <div>
+                    <input list="bath-list"type="text">
+                    <datalist id="bath-list">
+                        <option value="1+">
+                        <option value="2+">
+                        <option value="3+">
+                    </datalist>
+                </div>
+                <legend></legend>
+                <div>
+                    <label for="">Property Type:</label>
+                </div>
+                <div>
+                    <input list="prop-list"type="text">
+                    <datalist id="prop-list">
+                        <option value="Single Family Home">
+                        <option value="Condo">
+                        <option value="Townhouse">
+                        <option value="Lot">
+                        <option value="Manufactured Home">
+                        <option value="White">
+                        <option value="Purple">
+                    </datalist>
+                </div>
+                <button>Submit</button>
+            </fieldset>
+        </form>
+    </div>
+    <!---------------------------------- End Refine Search--------------------------->
+
+
+        <section class="section section-dark">
+            <div class="gallery">
+                <div class="pic-box">
+                    <img class="real-img" src="pic1sml.jpg" width=400px height=300px alt="" >
+                    <h3>3 BED 2 BATH</h3>
+                    <p class="rp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consectetur
+                        adipisicing elit. Necessitatibusfuga molestiae:
+                    </p>
+                    <a class="view-prop" href="mailto:someone@example.com?Subject=000%20Laurel St.">Request a
+                        Showing</a>
+                </div>
+                <div class="pic-box">
+                    <img class="real-img" src="pic2sml.jpg" width=400px height=300px alt="">
+                    <h3>3bd 2 Bath</h3>
+                    <p class="rp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consectetur
+                        adipisicing elit. Necessitatibusfuga molestiae:</p>
+                    <a class="view-prop" href="mailto:someone@example.com?Subject=000%20Laurel St.">Request a
+                        Showing</a>
+                </div>
+                <div class="pic-box">
+                    <img class="real-img" src="pic3sml.jpg" width=400px height=300px alt="">
+                    <h3>3bd 2 Bath</h3>
+                    <p class="rp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consectetur
+                        adipisicing elit. Necessitatibusfuga molestiae:</p>
+                    <a class="view-prop" href="">Request a Showing</a>
+                </div>
+
+               
+                    <div class="pic-box">
+                        <img class="real-img" src="pic4sml.jpg" width=400px height=300px alt="">
+                        <h3>0000 Laurel St</h3>
+                        <p class="rp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                            consectetur
+                            adipisicing elit. Necessitatibusfuga molestiae:</p>
+                        <a class="view-prop" href="mailto:someone@example.com?Subject=000%20Laurel St.">Request a
+                            Showing</a>
+                    </div>
+                    <div class="pic-box">
+                        <img class="real-img" src="pic5sml.jpg" width=400px height=300px alt="">
+                        <h3>3bd 2 Bath</h3>
+                        <p class="rp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                            consectetur
+                            adipisicing elit. Necessitatibusfuga molestiae:</p>
+                        <a class="view-prop" href="mailto:someone@example.com?Subject=000%20Laurel St.">Request a
+                            Showing</a>
+                    </div>
+                    <div class="pic-box">
+                        <img class="real-img" src="pic6sml.jpg" width=400px height=300px alt="">
+                        <h3>3bd 2 Bath</h3>
+                        <p class="rp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                            consectetur
+                            adipisicing elit. Necessitatibusfuga molestiae:</p>
+                        <a class="view-prop" href="mailto:someone@example.com?Subject=000%20Laurel St.">Request a
+                            Showing</a>
+                    </div>
+
+                   
+                        <div class="pic-box">
+                            <img class="real-img" src="pic7sml.jpg" width=400px height=300px alt="">
+                            <h3>0000 Laurel St</h3>
+                            <p class="rp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                                consectetur
+                                adipisicing elit. Necessitatibusfuga molestiae:</p>
+                            <a class="view-prop" href="mailto:someone@example.com?Subject=000%20Laurel St.">Request a
+                                Showing</a>
+                        </div>
+                        <div class="pic-box">
+                            <img class="real-img" src="pic8sml.jpg" width=400px height=300px alt="">
+                            <h3>3bd 2 Bath</h3>
+                            <p class="rp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                                consectetur
+                                adipisicing elit. Necessitatibusfuga molestiae:</p>
+                            <a class="view-prop" href="mailto:someone@example.com?Subject=000%20Laurel St.">Request a
+                                Showing</a>
+                        </div>
+                        <div class="pic-box">
+                            <img class="real-img" src="pic9sml.jpg" width=400px height=300px alt="">
+                            <h3>3bd 2 Bath</h3>
+                            <p class="rp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                                consectetur
+                                adipisicing elit. Necessitatibusfuga molestiae:</p>
+                            <a class="view-prop" href="mailto:someone@example.com?Subject=000%20Laurel St.">Request a
+                                Showing</a>
+                        </div>
+
+                    </div>
+
+        </section>
+        <section class="section section-light2">
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+            <div class="center">
+                <div id="social">
+                    <ul class="social-ul">
+                        <li class="facebook">
+                            <button class="border"><i class="fa fa-facebook"></i></button>
+                        </li>
+
+                        <li class="twitter">
+                            <button class="border"><i class="fa fa-twitter"></i></button>
+                        </li>
+
+                        <li class="instagram">
+                            <button class="border"><i class="fa fa-instagram"></i></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h3 class="email">YOUR@REALESTATE.COM</h3>
+            <h3 class="phone">555.555.5555</h3>
+            <p>Powered by <a href="index.html">JH Web-Dev</a></p>
+            <p>&copy2020</p>
+        </section>
+        <script src="refine.js"></script>
+</body>
